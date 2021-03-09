@@ -2,37 +2,73 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Banner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #333;
+  max-width: 100%;
+  z-index: 1000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Nav {
+  font-family: Muli, Sans-Serif;
+  color: #f2f2f2;
+  font-size: 17px;
+  padding-left: 15px; 
+  padding-right: 15px;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Grow {
+  transition: .9s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.Grow:hover {
+  transform: scale(1.2);
+  background-color: black;
+  text-decoration: none;
+  color: #f2f2f2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Sticky {
+  position: sticky;
+  top: 0;
+}
+
+.Home {
+  border: outset;
+  margin-top: 30px;
+
+}
+
+.Fun-Fact {
+  border-top: solid;
+  border-top-width: 1px;
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-family: Muli, Sans-Serif;
+}
+
+.Profile-Pic {
+  padding-top: 10px;
+  width: 356px;
+  height: 500px;
+  border-radius: 180px;
+  position: relative;
+}
+
+.Quote {
+  padding-top: 15px;
+  font-family: Muli, Sans-Serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #282c34;
+}
+
+.PDF {
+  transform: scale(1.8);
+  padding-top: 15px;
 }
