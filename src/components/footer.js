@@ -8,12 +8,14 @@ function Footer() {
 			<a href="https://www.linkedin.com/in/pvarlack/">
 				<img src={linkedInPic} href="https://www.linkedin.com/in/pvarlack/" 
 					 style={{width: '70px', height:'70px', borderRadius:'10px'}}
-					  className="Grow"/>
+					  className="Grow"
+					  alt="linkedInPic"/>
 			</a>
 			<a href="https://github.com/varlack1021">	
 			<img src={githubPic}
 			style={{width:'90px', height: '70px', borderRadius:'10px', paddingLeft: '10px' }}
 			className="Grow"
+			alt="githubPic"
 			/>
 			</a>
 
