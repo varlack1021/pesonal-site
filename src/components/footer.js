@@ -18,7 +18,8 @@ function Footer() {
 			alt="githubPic"
 			/>
 			</a>
-
+			<p style={{color: '#f2f2f2', fontFamily:'Muli, Sans-Serif'}}> <br/> &copy; 2021 Pharez J Varlack | Powered by AWS </p>
+			
 		</footer>
 	);
 }
