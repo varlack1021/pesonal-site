@@ -14,7 +14,7 @@ function Projects() {
 			<p>Below you will find links to different projects and experiences I have done outside of class</p>
 			<div className="Page-Section-Text">
 				<h2>23andMe Summer Intern  </h2>
-				<a href="https://github.com/varlack1021">	
+				<a href="/comingSoon">	
 				<img src={twentyThreeAndMe}
 					style={{width:'20%', height: '40%', borderRadius:'40px',}}
 					className="Grow"
@@ -24,7 +24,7 @@ function Projects() {
 			</div>
 			<div className="Page-Section-Text" >
 				<h2> Hearst Summer Intern</h2>
-				<a href="https://github.com/varlack1021">	
+				<a href="/comingSoon">	
 				<img src={hearst}
 					style={{width:'20%', height: '40%', borderRadius:'40px'}}
 					className="Grow"
@@ -34,17 +34,17 @@ function Projects() {
 			</div>
 			<div className="Page-Section-Text">
 				<h2>Omada Health Mentee</h2>
-				<a href="https://github.com/varlack1021">	
+				<a href="/comingSoon">	
 				<img src={omada}
 					style={{width:'35%', height: '60%', borderRadius:'20px', paddingTop: '20px', paddingBottom:'20px'}}
 					className="Grow"
 					alt="githubPic"/>
 				</a>
-				<p>See some of the cool things I built with a senior enginner manager! </p>
+				<p>See some of the cool things I built with a senior engineer manager! </p>
 			</div>
 			<div className="Page-Section-Text">
 				<h2>Code 2040 </h2>
-				<a href="https://github.com/varlack1021">	
+				<a href="/comingSoon">	
 				<img src={code2040}
 					style={{width:'35%', height: '50%', paddingTop: '20px', paddingBottom:'20px'}}
 					className="Grow"
@@ -54,7 +54,7 @@ function Projects() {
 			</div>
 			<div className="Page-Section-Text">
 				<h2>T.Howard Foundation </h2>
-				<a href="https://github.com/varlack1021">	
+				<a href="/comingSoon">	
 				<img src={tHoward}
 					style={{width:'25%', height: '40%',}}
 					className="Grow"
