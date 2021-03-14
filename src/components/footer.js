@@ -12,11 +12,10 @@ function Footer() {
 					  alt="linkedInPic"/>
 			</a>
 			<a href="https://github.com/varlack1021">	
-			<img src={githubPic}
-			style={{width:'90px', height: '70px', borderRadius:'10px', paddingLeft: '10px' }}
-			className="Grow"
-			alt="githubPic"
-			/>
+				<img src={githubPic}
+					style={{width:'90px', height: '70px', borderRadius:'10px', paddingLeft: '10px' }}
+					className="Grow"
+					alt="githubPic"/>
 			</a>
 			<p style={{color: '#f2f2f2', fontFamily:'Muli, Sans-Serif'}}> <br/> &copy; 2021 Pharez J Varlack | Powered by AWS </p>
 			

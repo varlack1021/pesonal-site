@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 function Home() {
 	return (
-		<Container className="Home">
+		<Container className="Container">
 		<h4 style={{paddingTop: '15px'}}> Welcome to PharezVarlack.com!</h4>
 			<Row>
 				<Col>
@@ -14,7 +14,7 @@ function Home() {
 					<h4 className="Quote"> "Who you are is defined by what you’re willing to struggle for"</h4>
 					<a href="https://www.goodreads.com/work/quotes/48297245-the-subtle-art-of-not-giving-a-f-ck-a-counterintuitive-approach-to-livi" 
 					   className="Quote" 
-					   style={{textDecoration:'underline'}}>-Mark Manson : The Subtle Art of Not Giving a F*ck</a>
+					   style={{textDecoration:'underline'}}>-Mark Manson : The Subtle Art of Not Giving a ...</a>
 					   <p>&nbsp; </p>
 				</Col>
 				<Col style={{paddingTop:'50px'}}>
