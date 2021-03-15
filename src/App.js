@@ -1,14 +1,16 @@
 import './App.css';
+
 import NavBar from './components/navBar';
 import Footer from './components/footer'
-import Home from './components/home';
-import Resume from './components/resume';
-import Biography from './components/biography';
-import Projects from './components/projects';
-import Tech from './components/tech';
-import Interests from './components/interests';
-import Contact from './components/contact/contact';
 import ComingSoon from './components/comingSoon';
+
+import Home from './containers/home';
+import Resume from './containers/resume';
+import Biography from './containers/biography';
+import Projects from './containers/projects';
+import Tech from './containers/tech';
+import Interests from './containers/interests';
+import Contact from './containers/contact';
 
 import {Route, BrowserRouter, Switch} from 'react-router-dom';
 

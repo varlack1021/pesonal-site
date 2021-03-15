@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
-import email from '../../images/email.png';
-import EmailForm from './EmailForm';
-import '../../App.css';
+import email from '../images/email.png';
+import EmailForm from '../components/EmailForm';
+import '../App.css';
 
 function Contact() {
 return (
