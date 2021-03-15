@@ -7,7 +7,7 @@ import Biography from './components/biography';
 import Projects from './components/projects';
 import Tech from './components/tech';
 import Interests from './components/interests';
-import Contact from './components/contact';
+import Contact from './components/contact/contact';
 import ComingSoon from './components/comingSoon';
 
 import {Route, BrowserRouter, Switch} from 'react-router-dom';

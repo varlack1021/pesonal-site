@@ -82,3 +82,17 @@
   font-family: "Muli", sans-serif;
   color: #282c34;
 }
+
+.Modal-input-box {
+  font-family: "Muli", sans-serif;
+  color: #282c34;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  outline: none;
+  box-sizing: none;
+  transition: none;
+}
+
+.Form-Control:valid {
+  color: blue;
+}
