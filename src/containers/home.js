@@ -21,11 +21,11 @@ function Home() {
 					<h4> Fun Facts: </h4>
 					<ul> 
 						<li className="Fun-Fact">I never pet a dog until my first summer of college. </li>
-						<li className="Fun-Fact"> I LOVE FOOD and COOKING. </li>
 						<li className="Fun-Fact"> I am Caribbean and Panamanian </li>
 						<li className="Fun-Fact"> I have an obsession of learning new technologes and building projects with them. </li>
 						<li className="Fun-Fact"> I love to travel. I've been to Panama and a tiny island called Anegada </li>
 						<li className="Fun-Fact"> I put cheese on Pancakes</li>
+						<li className="Fun-Fact"> Favorite Command: conda activate autobots</li>
 					</ul>
 				</Col>
 			</Row>
