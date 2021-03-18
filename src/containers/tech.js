@@ -1,4 +1,7 @@
 import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
 import nphawks from '../images/nphawks.jpeg';
 import movie from '../images/movie.png';
 import nqueens from '../images/nqueens.png';
@@ -8,6 +11,19 @@ import workout from '../images/workout.jpg';
 import textmyself from '../images/textmyself.png';
 import mystory from '../images/mystory.png';
 import goals from '../images/goals.jfif';
+import react from '../images/react.png';
+import javascript from '../images/javascript.png';
+import cicd from '../images/ci-cd.png';
+import python from '../images/python.jpg';
+import docker from '../images/docker.png';
+import aws from  '../images/aws.jpg';
+import rest from '../images/rest.jfif';
+import git from '../images/git.png';
+import agile from '../images/agile.png';
+import flask from '../images/flask.png';
+import django from '../images/django.png';
+import postgress from  '../images/postgress.png';
+
 
 import '../App.css'
 
@@ -102,6 +118,56 @@ function Tech() {
 					alt="githubPic"/>
 				</a>
 				<p>A website about me!</p>
+			</div>
+			<div className="Page-Section-Text">
+				<br/>
+				<h1>My Tech Stack! </h1>
+				<Row>
+					<Col md={3} className="Center Border">
+						<img src = {react}/>
+					</Col>
+					<Col md={4} className="Center Border">
+						<img src = {javascript} />
+					</Col>
+					<Col md={3} className= "Center Border" >
+						<img src = {cicd} />
+					</Col>
+				</Row>
+				<Row>
+					<Col md={3} className= "Center Border">
+						<img src = {python} className="Center"/>
+					</Col>
+					<Col md={4} className= "Center Border">
+						<img src = {docker} className="Center" />
+					</Col>
+					<Col md={3} className= "Center Border" >
+						<img src = {aws} style={{marginRight:'55px'}}/>
+					</Col>
+				</Row>
+				<Row>
+					<Col md={3} className= "Center Border">
+						<img src = {flask} style={{width:'100%'}}/>
+					</Col>
+					<Col md={4} className= "Center Border">
+						<img src = {git} className="Center" style={{width:'75%'}}/>
+					</Col>
+					<Col md={3} className= "Center Border" >
+						<img src = {django} style={{width:'100%'}}/>
+					</Col>
+				</Row>
+				<Row>
+					<Col md={3} className= "Center Border">
+						<img src = {postgress}  className="Center" style={{width:'70%'}}/>
+					</Col>
+					<Col md={4} className= "Center Border">
+						<img src = {agile} className="Center" />
+					</Col>
+					<Col md={3} className= "Center Border" >
+						<img src = {rest} style={{width:'70%'}}/>
+					</Col>
+				</Row>
+				<br/>
+				<br/>
 			</div>
 
 		</Container>

@@ -103,3 +103,11 @@
   border-radius: 40px;
 
 }
+
+.Center {
+  margin: auto;
+}
+
+.Border {
+  border: outset;
+}
