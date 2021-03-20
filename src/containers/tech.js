@@ -49,7 +49,7 @@ function Tech() {
 					<div>
 						<ul><h5>Description</h5></ul>
 						<ul >A website I built for the Residence Life Department at New Paltz!</ul>
-						<ul><h5>Tech used</h5></ul>
+						<ul><h5>Tech</h5></ul>
 						<ul>React, React-Bootstrap, Python<br/>Flask, Heroku, Twilio API, CI/CD, Git</ul>
 						<ul><h5>Links</h5></ul>
 						<ul>
@@ -220,7 +220,7 @@ function Tech() {
 					<div style={{paddingRight:'65px'}}>
 						<ul><h5>Description</h5></ul>
 						<ul>A tool I built to text my laptop from my iphone and vice versa</ul>
-						<ul><h5>Description</h5></ul>
+						<ul><h5>Tech</h5></ul>
 						<ul>Python, Twilio API, Bash Scripts, Flask</ul>
 						<ul><h5>Links</h5></ul>
 						<ul>
