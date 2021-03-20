@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Image from 'react-bootstrap/Image';
 
 import nphawks from '../images/nphawks.jpeg';
 import movie from '../images/movie.png';
@@ -37,87 +38,198 @@ function Tech() {
 			</p>
 
 			<div className="Page-Section-Text">
-				<h2>NpAutoScheduler  </h2>
-				<a href="http://www.npautoscheduler.com/">	
-				<img src={nphawks}
-					className="Grow page-image"
-					alt="githubPic"/>
-				</a>
-				<p>A website I bulid for the Residence Life Department at New Paltz!</p>
+				<h2>NpAutoScheduler</h2>
+				<div className="Flex">
+					<a href="http://www.npautoscheduler.com/" style={{height:'250px'}}>	
+					<Image src={nphawks}
+						className="Grow page-image"
+						fluid
+						/>
+					</a>
+					<div>
+						<ul><h5>Description</h5></ul>
+						<ul >A website I built for the Residence Life Department at New Paltz!</ul>
+						<ul><h5>Tech used</h5></ul>
+						<ul>React, React-Bootstrap, Python<br/>Flask, Heroku, Twilio API, CI/CD, Git</ul>
+						<ul><h5>Links</h5></ul>
+						<ul>
+							<a href = "http://www.npautoscheduler.com/"> http://www.npautoscheduler.com/</a>
+						</ul>
+						<ul>
+							<a href = "https://github.com/varlack1021/duty-scheduler"> https://github.com/varlack1021/duty-scheduler</a>
+						</ul>
+					</div>
+				</div>
 			</div>
-			<div className="Page-Section-Text" >
+			<div className="Page-Section-Text Clear" >
 				<h2>Movie Recommendation System</h2>
-				<a href="https://github.com/varlack1021/Movie-Recommendation">	
-				<img src={movie}
-					className="Grow page-image"
-					alt="githubPic"/>
-				</a>
-				<p>A naive implementation of a Movie Recommendation System using Machine Learning</p>
+					<div className="Flex">
+					<a href="https://github.com/varlack1021/Movie-Recommendation" style={{width:'250px'}}>	
+					<img src={movie}
+						className="Grow page-image"
+						alt="githubPic"
+						style={{paddingTop:'25px'}}
+						/>
+					</a>
+					<div>
+						<ul><h5>Description</h5></ul>
+						<ul >A Novel Movie Recommendation System powered by Machine Learning</ul>
+						<ul ><h5>Tech</h5></ul>
+						<ul>Python, Pandas, Numpy, Seaborn, Sklearn, Scipy</ul>
+						<ul ><h5>Links</h5></ul>
+						<ul>
+							<a href="https://github.com/varlack1021/Movie-Recommendation">https://github.com/varlack1021/Movie-Recommendation</a>
+						</ul>
+					</div>
+				</div>			
 			</div>
-			<div className="Page-Section-Text">
-				<h2>NQueens</h2>
-				<a href="https://github.com/varlack1021/NQueens/blob/master/N-Queen_Display.py">	
-				<img src={nqueens}
-					className="Grow page-image"
-					alt="githubPic"/>
-				</a>
-				<p>My solution to the infamous NQueens problem with a back tracking approach. Complete with a visualization! </p>
+			<div className="Page-Section-Text Clear">
+				<h2>NQueens </h2>
+					<div className="Flex">
+					<a href="https://github.com/varlack1021/NQueens">	
+					<img src={nqueens}
+						className="Grow page-image"
+						alt="githubPic"
+						style={{paddingTop:'20px', paddingRight:'80px'}}
+
+						/>
+					</a>
+					<div style={{paddingRight:'80px'}}
+>
+						<ul><h5>Description</h5></ul>
+						<ul>A solution and visualition of the Nqueens problem</ul>
+						<ul><h5>Tech</h5></ul>
+						<ul>Python, Pygame, Back-Tracking Algorithm</ul>
+						<ul><h5>Links</h5></ul>
+						<ul>
+							<a href="https://github.com/varlack1021/NQueens">
+								https://github.com/varlack1021/NQueens
+							</a>
+						</ul>
+					</div>
+				</div>			
 			</div>
-			<div className="Page-Section-Text">
-				<h2>WorkFlows</h2>
-				<a href="https://github.com/gmcglinn/Projects_CPS485">	
-				<img src={form}
-					className="Grow page-image"
-					alt="githubPic"/>
-				</a>
-				<p>A website to digitize the application/form process at SUNY New Paltz. </p>
+			<div className="Page-Section-Text Clear">
+				<h2>Personal Website</h2>
+					<div className="Flex">
+					<a href="http://www.pharezvarlack.com" style={{paddingTop:'25px', paddingRight:'20px'}}>	
+					<img src={mystory}
+						className="Grow page-image"
+						alt="githubPic"
+						/>
+					</a>
+					<div style={{paddingRight:'30px'}}>
+						<ul><h5>Description</h5></ul>
+						<ul>A website about me and my experiences!</ul>
+						<ul><h5>Tech</h5></ul>
+						<ul>Docker, React, React-bootstrap, CI/CD, AWS, Git, Linux</ul>
+						<ul><h5>Links</h5></ul>
+						<ul>
+							<a href="http://www.pharezvarlack.com">
+								http://www.pharezvarlack.com
+							</a>
+						</ul>
+						<ul>
+							<a href="https://github.com/varlack1021/pesonal-site">
+								https://github.com/varlack1021/pesonal-site
+							</a>
+						</ul>
+					</div>
+				</div>			
 			</div>
-			<div className="Page-Section-Text">
-				<h2>Techy Problems Solutions</h2>
-				<a href="https://github.com/varlack1021/Coding-Challenge-Solutions">	
-				<img src={algorithm}
-					style={{width:'25%', height: '40%', paddingBottom:'10px'}}
-					className="Grow"
-					alt="githubPic"/>
-				</a>
-				<p>A repo of problems I have solved using various data structures and algorithms</p>
-			</div>
-			<div className="Page-Section-Text">
+			<div className="Page-Section-Text Clear">
 				<h2>Project-M</h2>
-				<a href="https://github.com/varlack1021/project-m">	
-				<img src={workout}
-					className="Grow page-image"
-					alt="githubPic"/>
-				</a>
-				<p>A project I worked on with a senior engineer manager!</p>
+					<div className="Flex">
+					<a href="https://github.com/varlack1021/project-m" style={{height:'250px'}}>	
+					<img src={workout}
+						className="Grow page-image"
+						alt="githubPic"
+						/>
+					</a>
+					<div>
+						<ul><h5>Description</h5></ul>
+						<ul>A project I worked on with a senior egineer that organizes saved workout vidoes</ul>
+						<ul><h5>Tech</h5></ul>
+						<ul>Python, Django, React <br/>Heroku, Sendgrid, Docker, Sqlite, Postgress</ul>
+						<ul><h5>Links</h5></ul>
+						<ul>
+							<a href	= "https://github.com/varlack1021/project-m"> 
+								https://github.com/varlack1021/project-m
+							</a>
+						</ul>
+					</div>
+				</div>			
 			</div>
-			<div className="Page-Section-Text">
-				<h2>Text Myself</h2>
-				<a href="/comingSoon">	
-				<img src={textmyself}
-					className="Grow page-image"
-					alt="githubPic"/>
-				</a>
-				<p>Unfortunatley windows and Iphones don't talk. But with Twilio now they do!</p>
+			<div className="Page-Section-Text Clear">
+				<h2>SMART Goals</h2>
+					<div className="Flex">
+					<a href="/comingsoon" style={{paddingTop:'45px',}}>	
+					<img src={goals}
+						className="Grow page-image"
+						alt="githubPic"
+						/>
+					</a>
+					<div style={{paddingRight:'75px',}}>
+						<ul><h5>Description</h5></ul>
+						<ul>An application to consolidate differet services used to plan your life</ul>
+						<ul><h5>Tech</h5></ul>
+						<ul>Python, Flask, Git, Docker, SQLAlchemy <br/>Postgress, Heroku, Todoist API, Google Calendar API</ul>
+						<ul><h5>Links</h5></ul>
+						<ul>
+							<a href="comingsoon">
+								Coming Soon!
+							</a>
+						</ul>
+					</div>
+				</div>			
 			</div>
-			<div className="Page-Section-Text">
-				<h2>Smart Goals</h2>
-				<a href="/comingSoon">	
-				<img src={goals}
-					className="Grow"
-					style = {{borderRadius:'5%', paddingBottom:'10px'}}
-					alt="githubPic"/>
-				</a>
-				<p>An application that aims to consolidate different task tracking services into one!</p>
+			<div className="Page-Section-Text Clear">
+				<h2>Workflows</h2>
+					<div className="Flex">
+					<a href="https://github.com/gmcglinn/Projects_CPS485" style={{width:'240px', paddingRight: '30px', paddingTop:'20px'}}>
+					<img src={form}
+						className="Grow page-image"
+						alt="githubPic"
+						/>
+					</a>
+					<div>
+						<ul><h5>Description</h5></ul>
+						<ul>A website that digitizes forms and how they are completed</ul>
+						<ul><h5>Tech</h5></ul>
+						<ul>PHP, Linux, HTML, CSS, MySQL, Git</ul>
+						<ul><h5>Links</h5></ul>
+						<ul>
+							<a href="/comingsoon">
+								https://github.com/gmcglinn/Projects_CPS485							
+							</a>
+						</ul>
+					</div>
+				</div>			
 			</div>
-			<div className="Page-Section-Text">
-				<h2>This website!</h2>
-				<a href="/comingSoon">	
-				<img src={mystory}
-					className="Grow page-image"
-					alt="githubPic"/>
-				</a>
-				<p>A website about me!</p>
+			<div className="Page-Section-Text Clear">
+				<h2>TextMyself</h2>
+					<div className="Flex">
+					<a href="/comingsoon">	
+					<Image src={textmyself}
+						className="Grow page-image"
+						alt="githubPic"
+						style={{paddingTop:'35px',}}
+						fluid	
+						/>
+					</a>
+					<div style={{paddingRight:'65px'}}>
+						<ul><h5>Description</h5></ul>
+						<ul>A tool I built to text my laptop from my iphone and vice versa</ul>
+						<ul><h5>Description</h5></ul>
+						<ul>Python, Twilio API, Bash Scripts, Flask</ul>
+						<ul><h5>Links</h5></ul>
+						<ul>
+							<a href="/comingsoon">
+								Coming Soon
+							</a>
+						</ul>
+					</div>
+				</div>			
 			</div>
 			<div className="Page-Section-Text">
 				<br/>
