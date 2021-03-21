@@ -117,3 +117,13 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.Interest-Image {
+  max-width: 35%;
+  border-radius: 1em
+}
+
+.Top-Padding-Size {
+  font-size: 1.1em;
+  padding-top: 2em;
+}
