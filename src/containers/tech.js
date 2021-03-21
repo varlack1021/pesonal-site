@@ -63,12 +63,12 @@ function Tech() {
 			</div>
 			<div className="Page-Section-Text Clear" >
 				<h2>Movie Recommendation System</h2>
-					<div className="Flex">
+					<div className="Flex"  style={{paddingTop:'15px'}}>
 					<a href="https://github.com/varlack1021/Movie-Recommendation" style={{width:'250px'}}>	
 					<img src={movie}
 						className="Grow page-image"
 						alt="githubPic"
-						style={{paddingTop:'25px'}}
+						
 						/>
 					</a>
 					<div>
@@ -86,16 +86,13 @@ function Tech() {
 			<div className="Page-Section-Text Clear">
 				<h2>NQueens </h2>
 					<div className="Flex">
-					<a href="https://github.com/varlack1021/NQueens">	
+					<a href="https://github.com/varlack1021/NQueens" style={{paddingRight:'80px'}}>	
 					<img src={nqueens}
 						className="Grow page-image"
 						alt="githubPic"
-						style={{paddingTop:'20px', paddingRight:'80px'}}
-
 						/>
 					</a>
-					<div style={{paddingRight:'80px'}}
->
+					<div style={{paddingRight:'80px'}}>
 						<ul><h5>Description</h5></ul>
 						<ul>A solution and visualition of the Nqueens problem</ul>
 						<ul><h5>Tech</h5></ul>
@@ -112,13 +109,13 @@ function Tech() {
 			<div className="Page-Section-Text Clear">
 				<h2>Personal Website</h2>
 					<div className="Flex">
-					<a href="http://www.pharezvarlack.com" style={{paddingTop:'25px', paddingRight:'20px'}}>	
+					<a href="http://www.pharezvarlack.com" style={{paddingTop:'25px', paddingRight:'60px'}}>	
 					<img src={mystory}
 						className="Grow page-image"
 						alt="githubPic"
 						/>
 					</a>
-					<div style={{paddingRight:'30px'}}>
+					<div style={{paddingRight:'60px'}}>
 						<ul><h5>Description</h5></ul>
 						<ul>A website about me and my experiences!</ul>
 						<ul><h5>Tech</h5></ul>
@@ -186,7 +183,7 @@ function Tech() {
 			<div className="Page-Section-Text Clear">
 				<h2>Workflows</h2>
 					<div className="Flex">
-					<a href="https://github.com/gmcglinn/Projects_CPS485" style={{width:'240px', paddingRight: '30px', paddingTop:'20px'}}>
+					<a href="https://github.com/gmcglinn/Projects_CPS485" style={{width:'240px', paddingRight: '30px'}}>
 					<img src={form}
 						className="Grow page-image"
 						alt="githubPic"
@@ -209,11 +206,10 @@ function Tech() {
 			<div className="Page-Section-Text Clear">
 				<h2>TextMyself</h2>
 					<div className="Flex">
-					<a href="/comingsoon">	
+					<a href="/comingsoon" style={{paddingTop:'15px',}}>	
 					<Image src={textmyself}
 						className="Grow page-image"
 						alt="githubPic"
-						style={{paddingTop:'35px',}}
 						fluid	
 						/>
 					</a>

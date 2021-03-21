@@ -112,8 +112,6 @@
 
 .Flex {
   display: flex;
-  height: 300px;
-
   flex-wrap: wrap;
   justify-content: center;
 }
