@@ -25,7 +25,6 @@ import flask from '../images/flask.png';
 import django from '../images/django.png';
 import postgress from  '../images/postgress.png';
 
-
 import '../App.css'
 
 function Tech() {
@@ -84,7 +83,7 @@ function Tech() {
 				</div>			
 			</div>
 			<div className="Page-Section-Text Clear">
-				<h2>NQueens </h2>
+				<h2>NQueens</h2>
 					<div className="Flex">
 					<a href="https://github.com/varlack1021/NQueens" style={{paddingRight:'80px'}}>	
 					<img src={nqueens}
